@@ -1,6 +1,6 @@
 #!/bin/bash
 # Synchronize with git's server
-# usage: $ ./synch.sh <files or foldes>
+# usage: $ ./synch.sh <files or folder>
 git status
 
 while true; do
