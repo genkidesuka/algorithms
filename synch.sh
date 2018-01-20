@@ -9,7 +9,7 @@ while true; do
             git add .;
             git commit -m "`date`";
             git push;
-            ;;
+            exit ;;
         [Nn]* ) exit ;;
         * ) echo "Please answer yes or no";;
     esac
